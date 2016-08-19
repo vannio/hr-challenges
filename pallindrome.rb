@@ -8,4 +8,10 @@ def is_palindrome?(str)
   hash.values.reduce(:+).to_i <= 1
 end
 
-# is_palindrome?('cdefghmnipqrstuvw') => false
+def passes_test?
+  return false unless is_palindrome?('cdefghmnipqrstuvw') === false
+  return false unless is_palindrome?('abba') === true
+  true
+end
+
+# passes_test? => true
