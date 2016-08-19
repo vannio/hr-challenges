@@ -9,8 +9,8 @@ def is_palindrome?(str)
 end
 
 def passes_test?
-  return false unless is_palindrome?('cdefghmnipqrstuvw') === false
-  return false unless is_palindrome?('abba') === true
+  return false unless is_palindrome?('cdefghmnipqrstuvw') == false
+  return false unless is_palindrome?('abba') == true
   true
 end
 

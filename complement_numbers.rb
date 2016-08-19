@@ -5,7 +5,7 @@ def complement_num(num)
 end
 
 def passes_test?
-  return false unless complement_num(50) === 13
+  return false unless complement_num(50) == 13
   true
 end
 
