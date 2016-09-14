@@ -19,5 +19,7 @@ def convert_to_binary(num)
   string
 end
 
+p convert_to_binary(5) == '101'
 p convert_to_binary(10) == '1010'
+p convert_to_binary(10) != '1111'
 p convert_to_binary(13) == '1101'
